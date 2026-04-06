@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --text-primary: #1a1a2e;
+  --text-secondary: #6b7280;
+  --text-disabled: #9ca3af;
+  --surface: #f3f4f6;
+  --surface-card: #f9fafb;
+  --surface-selected: #1d1b27;
+  --border-subtle: #e8e8ed;
+
+  --progress-track: #e5e7eb;
+  --progress-fill: #1d1b27;
+
+  --cta-bg: #1d1b27;
+  --cta-disabled-bg: #d1d5db;
+  --cta-text: #ffffff;
+
+  --accent-red: #ef4444;
+  --accent-orange: #f97316;
+  --accent-blue: #6366f1;
+  --accent-green: #22c55e;
+  --star: #f59e0b;
+  --pink-soft: #fbe8ec;
+  --purple-soft: #e8e0f6;
+
+  --font-sans: "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--text-primary);
+  --font-sans: var(--font-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a:not([class]) {
+  color: inherit;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.legal-page {
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.legal-page h1 {
+  margin: 12px 0 10px;
+  color: var(--text-primary);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+}
+
+.legal-page h2 {
+  margin: 34px 0 8px;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-weight: 750;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.legal-page h3 {
+  margin: 22px 0 6px;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 650;
+}
+
+.legal-page p,
+.legal-page ul {
+  margin: 10px 0;
+}
+
+.legal-page ul {
+  padding-left: 1.2rem;
+}
+
+.legal-page li {
+  margin: 6px 0;
+}
+
+.legal-page a {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+@keyframes floatSoft {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes drawLine {
+  from {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+  }
+  to {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-float-soft {
+  animation: floatSoft 6s ease-in-out infinite;
+}
+
+.animate-draw-line {
+  animation: drawLine 1.4s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
