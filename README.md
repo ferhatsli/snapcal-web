@@ -12,7 +12,6 @@ Marketing website for SnapCal, implemented with Next.js App Router and Tailwind 
 ## Routes
 
 - `/` Home landing page
-- `/pricing` Plan comparison and subscription CTA
 - `/faq` Frequently asked questions
 - `/privacy` Privacy policy
 - `/terms` Terms of service

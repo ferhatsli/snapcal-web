@@ -28,8 +28,8 @@ export function HomeHero() {
             <CtaButton href={SITE_CONFIG.appStoreUrl} external className="sm:min-w-[180px]">
               Get Started
             </CtaButton>
-            <CtaButton href="/pricing" variant="outline" className="sm:min-w-[180px]">
-              See Pricing
+            <CtaButton href="/#features" variant="outline" className="sm:min-w-[180px]">
+              Learn More
             </CtaButton>
           </div>
         </div>

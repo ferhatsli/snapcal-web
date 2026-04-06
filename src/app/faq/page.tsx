@@ -5,7 +5,7 @@ import { FAQ_ITEMS, SITE_CONFIG } from '@/lib/site-config';
 
 export const metadata: Metadata = {
   title: 'FAQ',
-  description: 'Frequently asked questions about SnapCal subscriptions and product usage.',
+  description: 'Frequently asked questions about SnapCal usage and product behavior.',
 };
 
 export default function FaqPage() {

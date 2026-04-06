@@ -44,7 +44,7 @@ export default function PrivacyPage() {
         <ul>
           <li>Provide and maintain SnapCal features.</li>
           <li>Personalize calorie and macro recommendations.</li>
-          <li>Process subscriptions and customer support requests.</li>
+          <li>Process account and customer support requests.</li>
           <li>Monitor reliability, prevent abuse, and secure the platform.</li>
           <li>Comply with legal obligations and enforce our terms.</li>
         </ul>
@@ -59,7 +59,7 @@ export default function PrivacyPage() {
         <p>We may share limited information with:</p>
         <ul>
           <li>Infrastructure and cloud providers that host our Services.</li>
-          <li>Payment and subscription service providers.</li>
+          <li>Service providers supporting app operations and support workflows.</li>
           <li>Analytics, monitoring, and customer support vendors.</li>
           <li>Authorities when required by law or to protect rights and safety.</li>
         </ul>
@@ -110,7 +110,7 @@ export default function PrivacyPage() {
 
         <h2>12. Contact</h2>
         <p>
-          For privacy inquiries, please contact: <a href="mailto:support@snapcal.app">support@snapcal.app</a>
+          For privacy inquiries, please contact: <a href="mailto:support@snapcalai.app">support@snapcalai.app</a>
         </p>
       </article>
     </div>

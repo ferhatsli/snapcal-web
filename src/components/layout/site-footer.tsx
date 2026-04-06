@@ -22,9 +22,6 @@ export function SiteFooter() {
               <Link href="/" className="hover:text-[var(--text-primary)]">Home</Link>
             </li>
             <li>
-              <Link href="/pricing" className="hover:text-[var(--text-primary)]">Pricing</Link>
-            </li>
-            <li>
               <Link href="/faq" className="hover:text-[var(--text-primary)]">FAQ</Link>
             </li>
           </ul>

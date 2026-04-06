@@ -33,13 +33,11 @@ export default function TermsPage() {
           The Services are for informational and self-management purposes and do not replace professional medical advice.
         </p>
 
-        <h2>3. Subscriptions and Billing</h2>
+        <h2>3. Platform Access and App Store Policies</h2>
         <ul>
-          <li>SnapCal is available as a paid subscription service.</li>
-          <li>Current plan examples include weekly and yearly options.</li>
-          <li>Billing is handled by your platform provider (e.g., Apple).</li>
-          <li>Subscription renewals and cancellations are managed through your platform account settings.</li>
-          <li>No free trial is offered unless explicitly stated by SnapCal.</li>
+          <li>App download, updates, and device compatibility are governed by your platform provider.</li>
+          <li>Platform-level account and store rules may apply in addition to these Terms.</li>
+          <li>You are responsible for complying with your device and app store policies.</li>
         </ul>
 
         <h2>4. Acceptable Use</h2>
@@ -107,7 +105,7 @@ export default function TermsPage() {
 
         <h2>14. Contact</h2>
         <p>
-          For questions regarding these Terms, contact: <a href="mailto:support@snapcal.app">support@snapcal.app</a>
+          For questions regarding these Terms, contact: <a href="mailto:support@snapcalai.app">support@snapcalai.app</a>
         </p>
       </article>
     </div>
